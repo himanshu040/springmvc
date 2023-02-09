@@ -12,7 +12,7 @@ public class ReController {
 	public String one()
 	{
 		System.out.println("this is one handler");
-		return "redirect:/enjoy";
+		return "redirect:/enjoy"	;
 	}	
 	
 	@RequestMapping("/enjoy")
